@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.wrapper {
+  width: 75%;
+  margin: 1rem auto;
+  background: rgb(195, 66, 34);
+  background: linear-gradient(
+    0deg,
+    rgba(195, 66, 34, 0.40840737336601307) 0%,
+    rgb(103, 203, 252) 100%
+  );
+  -webkit-box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 3px 8px 5px #8cc2ff, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+h1 {
+  text-align: center;
+  font-size: 1rem;
+  color: rgba(252, 54, 4, 0.743);
+  padding: 2rem;
+  text-decoration: underline;
+}
+h2 {
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+.userInput {
+  position: relative;
+
+  display: inline-block;
+  margin-left: 4rem;
+
+  margin-bottom: 2rem;
+}
+
+#submit {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgb(101, 126, 255) 0%,
+    rgb(253, 150, 138) 100%
+  );
+  padding: 0, 5rem;
+}
